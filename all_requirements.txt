@@ -3,3 +3,6 @@ scikit-learn
 joblib
 Ipython
 numpy
+pyarrow
+mysql-connector-python
+xlrd
