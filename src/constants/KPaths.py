@@ -11,4 +11,6 @@ class KPaths:
     path_iris_json = path_datasets + '/iris.json'
     path_pib_mun_xls = path_datasets + '/PIB dos Municipios - base de dados 2010-2016.xls'
     path_champion_info_json = path_datasets + '/champion_info.json'
-    path_user_track_parquet = path_datasets +'/user_tracking.parquet'
+    path_user_track_parquet = path_datasets + '/user_tracking.parquet'
+    path_churn_bank = path_datasets + '/ap3/Churn_Bank.csv'
+    path_heart_csv = path_datasets + '/ap3/heart.csv'

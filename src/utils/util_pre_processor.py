@@ -38,4 +38,11 @@ class UtilPreProcessor:
     @staticmethod
     def split_column_data_by_pattern(df:pd.DataFrame,column_name: str, pattern: str):
         return  df[column_name].apply(lambda x: x.split(pattern) )
+    
+    @staticmethod
+    def get_index_vocab(vocab:dict[str,int],string):
+        if vocab.get(string) != None:
+            return vocab[string]
+        else:
+            return -1
  
