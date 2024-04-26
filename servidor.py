@@ -27,7 +27,7 @@ def predict_breast_cancer():
     feature_columns = [f'PCA{i+1}' for i in range(15)]
     pca_df = pd.DataFrame(data=pca_df, columns=feature_columns)
     predict = model.predict(pca_df)
-    response ={'cancer_type': 'Maligno' if predict[0] == 0 else 'Benigno'}
+    response ={'cancer_type': 'Maligno' if predict[0] == 1 else 'Benigno'}
     return jsonify(response)  
 
 if __name__ == '__main__':
