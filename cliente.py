@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://localhost:8080/'
+url = 'http://3.90.113.0:5000/'
 
 data = {'id':[842302],'radius_mean':[17.99],'texture_mean':[10.38],'perimeter_mean':[122.8],'area_mean':[1001],'smoothness_mean':[0.1184],
  'compactness_mean': [3123.4],'concavity_mean':[0.2776],'concave points_mean':[0.3001],'symmetry_mean':[0.1471],

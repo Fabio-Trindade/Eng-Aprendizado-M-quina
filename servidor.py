@@ -14,7 +14,7 @@ def predict_breast_cancer():
         scaler = pickle.load(f)
  
     df = pd.DataFrame(data)
-    print(df)
+    print('Dado Recebido:',data)
     feature_columns = ['perimeter_worst','perimeter_se','radius_worst','smoothness_mean','texture_mean','fractal_dimension_mean',
                        'concave points_se','concave points_worst','texture_worst','radius_se','concavity_worst','area_mean',
                        'smoothness_worst','smoothness_se','compactness_worst','area_se','concavity_mean','symmetry_worst',
